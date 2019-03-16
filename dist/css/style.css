@@ -57,8 +57,13 @@ h3 {
 .pd-2 { padding: 2rem 0; }
 .pd-3 { padding: 3rem 0; }
 .pd-4 { padding: 2rem }
+.pd-5 { padding-right: 6rem; }
+.pd-6 { padding: 0.5rem 0; }
+
+.lh-1 { line-height: 1.5rem; }
 
 .mr-1 { margin: 3rem 0; }
+.mr-2 { margin: 5px 0; }
 
 .text_center { text-align: center; }
 
@@ -158,6 +163,15 @@ h3 {
     padding-right: 3rem;
 }
 
+.tech ul li {
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.fa-cog {
+    color: #93cb52;
+  }
+
 /* Social Buttons */
 .social {
     position: fixed;
@@ -173,7 +187,7 @@ h3 {
 .social ul li {
     display: block;
     margin: 5px;
-    background: rgba(0, 9, 90, 0.36);
+    background: rgba(10, 80, 1, 0.75);
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -183,7 +197,7 @@ h3 {
 
 .social ul li:hover i {
     color: #fff;
-    background: #93cb52;
+    background: #b2e27c;
     transform: rotate(360deg);
     transition: all 1s;
 }
@@ -271,6 +285,6 @@ h3 {
     justify-content: center;
     align-items: stretch;
     flex: 3;
-    padding-right: 3rem;
+    padding-right: 5rem;
     padding-top: 3.2rem;
 }

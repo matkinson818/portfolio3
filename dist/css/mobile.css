@@ -1,0 +1,22 @@
+<!-- Contact -->
+    <section id="contact" class="pd-4">
+        <div id="contact" class="container">
+                <p class="md_heading">Connect with me:</p>
+            <div class="item">
+                <p>
+                    Please feel to contact me. I love to connect and collaborate with others about software and technology.
+                    I love programming new projects that allows me to build projects from beginning to end and further develop my skills as 
+                </p>
+            </div>
+            <div class="item">
+                    <div id="nav-icon" class="icon">
+                            <a href="https://www.linkedin.com/in/melvetaatkinson/">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://github.com/matkinson89">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                    </div>
+            </div>
+        </div>
+    </section>
