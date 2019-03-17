@@ -1,4 +1,46 @@
-<!-- Contact -->
+#container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1);
+    grid-gap: 1rem;
+}
+
+.social {
+    display: none;
+}
+
+#about i {
+    display: none;
+}
+
+#showcase h1 {
+    display: none;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact .item {
+    flex-direction: column;
+    
+    flex: 1;
+}
+
+#about .tech {
+    display: flex;
+    
+}
+
+#about .tech ul {
+
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+
+/* <!-- Contact -->
     <section id="contact" class="pd-4">
         <div id="contact" class="container">
                 <p class="md_heading">Connect with me:</p>
@@ -19,4 +61,4 @@
                     </div>
             </div>
         </div>
-    </section>
+    </section> */

@@ -25,9 +25,9 @@ h3 {
     padding-bottom: 1.2rem;
 }
 
-#projects .container .projects img {
+/* #projects .container .projects img {
     display: inline;
-}
+} */
 
 /* Utility Classes */
 .container {
@@ -148,8 +148,8 @@ h3 {
     flex: 1;
     text-align: center;
 }
-
-#about .container .tech {
+/* 
+#tech .container .tech {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,7 +157,7 @@ h3 {
     flex: 3;
     padding-right: 3rem;
     padding-top: 3.2rem;
-}
+} */
 
 #about .container .tech ul {
     padding-right: 3rem;
@@ -166,9 +166,10 @@ h3 {
 .tech ul li {
     font-size: 30px;
     list-style-type: none;
+    text-align: center;
 }
 
-.fa-cog {
+.icon-color {
     color: #93cb52;
   }
 
@@ -218,10 +219,14 @@ h3 {
 /* Work/Projects */
 #container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1);
     grid-gap: 1rem;
     justify-content: left;
+}
+
+#projects {
+    background: #F0F0F0;
 }
 
 .description {
@@ -255,20 +260,19 @@ h3 {
     padding: 2px 16px;
   }
 
-.link {
+/* .link {
     display: grid;
     grid-template-rows: repeat(2);
     grid-gap: 1rem;
     justify-content: center;
     text-align: center;
-}
+} */
 
   /* Contact */
 #contact {
     background: rgb(26, 24, 24);
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    display: flex;
   }
 
 .connect {
@@ -281,7 +285,7 @@ h3 {
 
 #contact .item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
     flex: 3;

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Melveta Atkinson</title>
 </head>
 <body id="melveta">
@@ -21,7 +21,7 @@
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="./img/Melveta_Atkinson_resume_compressed.pdf" download>Resume</a></li>
         </ul>
     </nav>
 
@@ -52,37 +52,38 @@
         <div class="container pd-4">
             <div class="items">
                 <p class="md_heading text_center">Who am I</p>
-                <div class="item">
+                <div class="item lh-1">
                     <p>Hi, I am Melveta Atkinson and I am a self taught passionate developer.</p>
                     <p>I have taken this passion and applied that to my personal projects and work life. I enjoying tackling new probelms with adversity and furthering my knowledge and love for all things tech related. I started my journey into software development like many with a curosity in technology and this led me to programming and fell head over heals in love with it. I've taken this love and applied it to blogging, creating tutorials on YouTube, creating my own apps and tutoring college students.</p> 
                 </div>
                 <hr class="mr-1">
                 <p class="md_heading pd-1 text_center">...And Why Work With Me</p>
-                <div class="item">
+                <div class="item lh-1">
                     <p>My primary focus is Front End technologies centering around React JS but I am always pushing myself to learn new and exciting technologies in web development.</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="about">
+    <section id="tech">
         <div class="container pd-4">
                 <div class="tech">
-               
-
                         <ul>
-                            <h3>Technologies</h3>
-                            <li class="pd-6">JavaScript ES6 <i class="fab fa-js fa-cog"></i></li>
-                            <li class="pd-6">React <i class="fab fa-react fa-cog"></i></li>
-                            <li class="pd-6">Context API <i class="fab fa-react fa-cog"></i></li>
-                            <li class="pd-6">HTML5 <i class="fab fa-html5 fa-cog"></i></li>
-                            <li class="pd-6">CSS3 <i class="fab fa-css3-alt fa-cog"></i></li>
-                            <li class="pd-6">Git <i class="fab fa-git-square fa-cog"></i></li>
-                            <li class="pd-6">GitHub <i class="fab fa-github fa-cog"></i></li>
-                            <li class="pd-6">Bootstrap</li>
+                            <p class="md_heading text_center">Technologies</p>
+                            <hr>
+                            <li class="pd-6">JavaScript ES6 <i class="fab fa-js icon-color"></i></li>
+                            <li class="pd-6">React <i class="fab fa-react icon-color"></i></li>
+                            <li class="pd-6">Context API <i class="fab fa-react icon-color"></i></li>
+                            <li class="pd-6">HTML5 <i class="fab fa-html5 icon-color"></i></li>
+                            <li class="pd-6">CSS3 <i class="fab fa-css3-alt icon-color"></i></li>
+                            <li class="pd-6">Git <i class="fab fa-git-square icon-color"></i></li>
+                            <li class="pd-6">GitHub <i class="fab fa-github icon-color"></i></li>
+                            <li class="pd-6">GraphQL <i class="fas fa-code icon-color"></i></li>
+                            <li class="pd-6">Bootstrap <i class="fas fa-code icon-color"></i></li>
                         </ul>
-                        <ul>
-                            <h3>Certifications</h3>
+                        <ul class="pd-1">
+                            <p class="md_heading text_center">Certifications</p>
+                            <hr>
                             <li class="pd-6">CompTIA A+</li>
                         </ul>
                     </div>
@@ -93,23 +94,23 @@
     
     <!-- Projects -->
     <section id="projects" class="pd-4">
-        <div id="container" class="">
-            <div class="project container">
-                <a href="https://www.melvetatalkssoftware.com/" target="_blank" class="button button_1">
+
+        <div id="container">
+                <a href="https://www.melvetatalkssoftware.com/" target="_blank" class="button item">
                     <i class="fas fa-eye"></i> Project
                 </a>
-                <a href="https://github.com/matkinson89/gatsvy_blog" class="button button_1" target="_blank">
+                <a href="https://github.com/matkinson89/gatsvy_blog" class="button item" target="_blank">
                     <i class="fab fa-github"></i> Github
                 </a>
-                <a href="#">
+                <a href="#" class="item"> 
                     <img src="../dist/img/Capture.jpg" alt="Project">
                 </a>
                 <div>
-                    <p>
+                    <p class="item lh-1">
                     Gatsby blog site which is based on React and powered by GraphQL. Browse blog posts that are written by me in markdown. These blog post document my journey through software development.
                     </p> 
-                    <p>Technologies: </p>
-                    <ul>
+                    <p class="item"> Technologies Used: </p>
+                    <ul class="item">
                         <li>Gatsby</li>
                         <li>React</li>
                         <li>GraphQL</li>
@@ -117,22 +118,22 @@
                 </div>   
             </div>
 
-            <div class="project container">
-                    <a href="http://www.findyourhero.xyz/" target="_blank" class="button button_1">
+            <div id="container">
+                    <a href="http://www.findyourhero.xyz/" target="_blank" class="button item">
                         <i class="fas fa-eye"></i> Project
                     </a>
-                    <a href="https://github.com/matkinson89/marvel_app" class="button button_1" target="_blank">
+                    <a href="https://github.com/matkinson89/marvel_app" class="button item" target="_blank">
                         <i class="fab fa-github"></i> Github
                     </a>
-                <a href="#">
+                <a href="#" class="item">
                     <img src="../dist/img/project2.JPG" alt="Project">
                 </a>
                 <div>
-                    <p>
+                    <p class="item lh-1">
                     React application that utilizes the Marvel API and the Context API which is similar to Redux. You can browse your favorite Marvel super and find out some basic information as in their Marvel id number and available comics they are in.
                     </p> 
-                    <p>Technologies: </p>
-                    <ul>
+                    <p class="item">Technologies Used: </p>
+                    <ul class="item">
                         <li>React</li>
                         <li>Context API</li>
                         <li>Bootstrap</li>
@@ -140,14 +141,12 @@
                 </div> 
             </div>
 
-            
-        </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="pd-4">
             
-        <div id="contact" class="container">
+        <div  class="container">
             <p class="md_heading">Connect with me:</p>
             <div class="item">
                 <p class="lh-1">
@@ -155,13 +154,13 @@
                     I love programming new projects that allows me to build projects from beginning to end and further develop my skills as 
                 </p>
             </div>
-           
+            <div class="pd-5 item">
+                    <h3 class="pd-1">Address: Plantation, FL</h2>
+                    <h3 class="pd-1">Email: melvetaatkinson818@gmail.com</h2>
+                    <h3 class="pd-1">Phone: (954) 895 - 8215</h2>
+               </div>
         </div>
-        <div class="pd-5">
-                <h3 class="pd-1">Address: Plantation, FL</h2>
-                <h3 class="pd-1">Email: melvetaatkinson818@gmail.com</h2>
-                <h3 class="pd-1">Phone: (954) 895 - 8215</h2>
-           </div>
+        
     </section>
 
 </body>
