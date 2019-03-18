@@ -1,3 +1,11 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    height: 0px;
+    overflow-x: hidden;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -6,10 +14,6 @@
 }
 
 .social {
-    display: none;
-}
-
-#about i {
     display: none;
 }
 
@@ -22,43 +26,34 @@
 }
 
 #contact .item {
-    flex-direction: column;
-    
+    flex-direction: column;    
     flex: 1;
+    padding: 1rem;
 }
 
 #about .tech {
-    display: flex;
-    
+    display: flex; 
 }
 
 #about .tech ul {
-
     flex-direction: column;
-    flex: 1;
-    
+    flex: 1;  
+}
+
+.icon {
+    display: block;
 }
 
 
-/* <!-- Contact -->
-    <section id="contact" class="pd-4">
-        <div id="contact" class="container">
-                <p class="md_heading">Connect with me:</p>
-            <div class="item">
-                <p>
-                    Please feel to contact me. I love to connect and collaborate with others about software and technology.
-                    I love programming new projects that allows me to build projects from beginning to end and further develop my skills as 
-                </p>
-            </div>
-            <div class="item">
-                    <div id="nav-icon" class="icon">
-                            <a href="https://www.linkedin.com/in/melvetaatkinson/">
-                                <i class="fab fa-linkedin fa-2x"></i>
-                            </a>
-                            <a href="https://github.com/matkinson89">
-                                <i class="fab fa-github fa-2x"></i>
-                            </a>
-                    </div>
-            </div>
-        </div>
-    </section> */
+
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul a {
+        margin: 0;
+
+    }
+}
