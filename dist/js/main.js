@@ -13,5 +13,3 @@ $('#navbar a').on('click', function(event) {
         );
     }
 })
-
-console.log('hi')
